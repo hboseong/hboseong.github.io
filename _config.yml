@@ -296,3 +296,5 @@ defaults:
       related: true
 
 
+
+theme: jekyll-theme-midnight
