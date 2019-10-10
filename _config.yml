@@ -6,9 +6,19 @@ theme: jekyll-theme-midnight
 
 locale                   : "ko" # 타깃 국가 설정
 title                    : "Boseong 기술 블로그" # 블로그 좌측상단의 제목
-name                     : "Hwang Boseong"
+name                     : "Boseong 기술 블로그"
 description              : "기술 블로그 1단계"
 url                      : "https://hboseong.github.io" # 블로그 주소
 repository               : "hboseong/hboseong.github.io" # 블로그 github 리포지토리
 search                   : true # 사이트 우측 상단 검색 활성화
 search_full_content      : # 제목이 아닌 내용까지도 검색할 것인지에 대한 설정 기본 false
+
+author:
+  name             : "황보성"
+  avatar           : "/assets/images/bio-photo.jpg" # 프로필 사진
+  bio              : "Java 개발자"
+  location         : "Seoul,Korea"
+  email            : "hs1128h@gmail.com"
+  uri              : # 웹사이트, 보통 지금 블로그 말고 링크해두고 싶은 사이트를 적는다.
+  # 이 아래 쇼셜 리스트에 해당되는 것에 아이디를 적는다
+  github : "hboseong" # 주소 전체를 적는 것이 아닌 자신의 정보만 적는다.
