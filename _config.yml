@@ -5,9 +5,9 @@ google_analytics:
 theme: jekyll-theme-midnight
 
 locale                   : "ko" # 타깃 국가 설정
-title                    : "보성 개발노트" # 블로그 좌측상단의 제목
-name                     : "보성 개발노트"
-description              : "기술 블로그 1단계"
+title                    : "Boseong developer note" # 블로그 좌측상단의 제목
+name                     : "Boseong developer note"
+description              : "note stage 1"
 url                      : "https://hboseong.github.io" # 블로그 주소
 repository               : "hboseong/hboseong.github.io" # 블로그 github 리포지토리
 search                   : true # 사이트 우측 상단 검색 활성화
