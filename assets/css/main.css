@@ -1526,6 +1526,27 @@ a.newer-posts:hover {
 }
 .sidebar .icon-search{width:1rem;height:1rem;fill:#515151;}
 
+.search-wrapper{position:fixed;top:30px;width:100%;padding-right:5%;padding-left:5%;-webkit-transform:translateY(-200px);transform:translateY(-200px);z-index:19;}
+.search-wrapper.active{-webkit-transform:translateY(0);transform:translateY(0)}
+.search-form{position:relative;top:0;width:100%;-webkit-transform:translateX(-200px);transform:translateX(-200px);-webkit-transition:all 200ms 100ms cubic-bezier(0,.6,.4,1);transition:all 200ms 100ms cubic-bezier(0,.6,.4,1);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;z-index:19;}
+.search-form .search-field{width:100%;height:2.5rem;line-height:1.875rem;font-family:'Titillium Web','Helvetica Neue',Helvetica,sans-serif;font-weight:300;font-style:normal;font-size:1.25rem;color:#141414;background-color:#fff;border:0;border-radius:1.25rem;padding:.313rem 1.563rem;outline:0;}
+.search-form .search-field:focus{outline:0}
+.search-form.active{top:0;-webkit-transform:translateX(0);transform:translateX(0);-ms-filter:none;-webkit-filter:none;filter:none;opacity:1}
+.search-form .search-list{position:absolute;width:100%;font-family:'Titillium Web','Helvetica Neue',Helvetica,sans-serif;font-weight:300;font-style:normal;display:none;padding:0 1.25rem;margin:1.25rem 0;list-style-type:none;}
+.active .search-form .search-list{display:block}
+@media only screen and (max-width:37.5rem){.search-form .search-list{height:380px;overflow:scroll}
+}
+.search-form .search-list .entry-date{float:right;display:none;font-size:.875rem;}
+@media only screen and (min-width:37.5rem){.search-form .search-list .entry-date{display:inline}
+}
+.search-form .search-list .entry-category{text-transform:uppercase;background-color:#a9383d;margin-right:.313rem;height:1.25rem;border-radius:.625rem;font-size:.75rem;padding:.125rem .5rem;color:#fff}
+.search-form .search-list a{color:#fff;text-decoration:none;display:block;padding:.938rem 0;width:100%;-webkit-transition:all .3s;transition:all .3s;line-height:1.563rem;}
+.search-form .search-list a:hover{color:#efff00;}
+.search-form .search-list a:hover .entry-category{color:#fff}
+.search-form .icon-remove-sign{position:absolute;top:0;right:0;display:block;width:1.625rem;height:1.625rem;padding:.313rem;fill:#fff;background-color:#a9383d;border-radius:13px;margin:.438rem;cursor:pointer;outline:0;z-index:1}
+.search-overlay{overflow:hidden;}
+.search-overlay:after{position:fixed;top:0;left:0;width:100%;height:100%;min-height:100%;background-color:#333030d9;content:'';z-index:18}
+
 /* categories list */
 .categories-list-header {
 	display: block;
