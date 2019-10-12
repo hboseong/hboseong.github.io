@@ -1,0 +1,22 @@
+---
+layout: main
+title: Category
+permalink: /category
+---
+{% assign esc_title="{{ p.title }}" %}
+{% assign esc_date="{{ p.date }}" %}
+{% assign esc_ctgname="{{ hash }}" %}
+
+<div id="post-list" class="category">
+  <h2>{{page.title}} | <span id="{{ category | first }}">{{ esc_ctgname }}</span></h2>
+  <hr>
+  <ul>
+    <li v-for="p in posts" v-if="p.categories.indexOf(hash) != -1">
+      <a v-bind:href="p.url" class="category-list">{{ esc_title }}
+        <time style="float: right;">
+          {{ esc_date }}
+        </time>
+      </a>
+    </li>
+  </ul>
+</div>
