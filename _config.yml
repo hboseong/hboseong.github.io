@@ -1,4 +1,4 @@
-title: Let's work smart and live smarter!
+title: DEVELOPER NOTE
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Hwang Boseong # add your name
 author-img: boseong_slide.jpg # add your photo
-about-author: DEVELOPER NOTE # add description
+about-author: Let's work smart and live smarter! # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: hboseong # add your Github handle
