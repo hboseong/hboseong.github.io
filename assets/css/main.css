@@ -1036,7 +1036,7 @@ table tfoot td {
   display: block;
   height: 2px;
   width: -webkit-calc(50% - 48px);
-  width: calc(50% - 48px);
+  width: calc(50% - 98px);
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1051,7 +1051,7 @@ table tfoot td {
   display: block;
   height: 2px;
   width: -webkit-calc(50% - 48px);
-  width: calc(50% - 48px);
+  width: calc(50% - 98px);
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
