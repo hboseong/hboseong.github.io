@@ -7,7 +7,7 @@ tags: Elasticsearch Java
 img: elasticsearch.png # Add image post (optional)  
 ---
 
-```java
+```php
 import java.sql.Connection;
 import java.sql.DriverManager;
 
