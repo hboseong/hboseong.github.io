@@ -7,10 +7,39 @@ tags: Elasticsearch Java
 img: elasticsearch.png # Add image post (optional)  
 ---
 
-request.settings(Settings.builder() 
-    .put("index.number_of_shards", 3)
-    .put("index.number_of_replicas", 2)
-);
+```java
+import java.sql.Connection;
+import java.sql.DriverManager;
 
+public class DBConn {
+    private static Connection conn = null;
 
-commit test tt
+    private DBConn() {
+    }
+
+    public static Connection getConnection() {
+        String url = "jdbc:oracle:thin:@220.76.176.66:1521:orcl", user = "noritersand", pwd = "java301$!";
+        if (conn == null) {
+            try {
+                Class.forName("oracle.jdbc.driver.OracleDriver");
+                conn = DriverManager.getConnection(url, user, pwd);
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+        return conn;
+    }
+
+    public static void close() {
+        if (conn != null) {
+            try {
+                if (!conn.isClosed())
+                    conn.close();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+        conn = null;
+    }
+}
+```
