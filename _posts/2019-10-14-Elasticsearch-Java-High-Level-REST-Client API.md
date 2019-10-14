@@ -6,3 +6,11 @@ categories: Elasticsearch Java
 tags: Elasticsearch Java
 img: elasticsearch.png # Add image post (optional)  
 ---
+
+request.settings(Settings.builder() 
+    .put("index.number_of_shards", 3)
+    .put("index.number_of_replicas", 2)
+);
+
+
+commit test tt
