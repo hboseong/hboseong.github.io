@@ -10,7 +10,6 @@ img: elasticsearch.png # Add image post (optional)
 # Initialization
 
 ```java
-
 final ArrayList<HttpHost> hostList = new ArrayList<HttpHost>();
 
 LogManager.logger.debug("Elasticsearch client initialization");
@@ -21,5 +20,4 @@ for (ESDataNodeVO esDataNodeVO : mESPropertiesVO.getDataNodeList())
 final RestClientBuilder builder = RestClient.builder(hostList.toArray(new HttpHost[hostList.size()]));
 
 mCQueue.enqueue(new RestHighLevelClient(builder));
-
 ```
