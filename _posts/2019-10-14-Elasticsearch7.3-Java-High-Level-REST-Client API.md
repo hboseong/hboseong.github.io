@@ -10,38 +10,16 @@ img: elasticsearch.png # Add image post (optional)
 # Initialization
 
 ```java
-import java.sql.Connection;
-import java.sql.DriverManager;
 
-public class DBConn {
-    private static Connection conn = null;
+final ArrayList<HttpHost> hostList = new ArrayList<HttpHost>();
 
-    private DBConn() {
-    }
+LogManager.logger.debug("Elasticsearch client initialization");
 
-    public static Connection getConnection() {
-        String url = "jdbc:oracle:thin:@220.76.176.66:1521:orcl", user = "noritersand", pwd = "java301$!";
-        if (conn == null) {
-            try {
-                Class.forName("oracle.jdbc.driver.OracleDriver");
-                conn = DriverManager.getConnection(url, user, pwd);
-            } catch (Exception e) {
-                System.out.println(e);
-            }
-        }
-        return conn;
-    }
+for (ESDataNodeVO esDataNodeVO : mESPropertiesVO.getDataNodeList())
+    hostList.add(newHttpHost(esDataNodeVO.getHost(), esDataNodeVO.getPort(), "http"));
+    
+final RestClientBuilder builder = RestClient.builder(hostList.toArray(new HttpHost[hostList.size()]));
 
-    public static void close() {
-        if (conn != null) {
-            try {
-                if (!conn.isClosed())
-                    conn.close();
-            } catch (Exception e) {
-                System.out.println(e);
-            }
-        }
-        conn = null;
-    }
-}
+mCQueue.enqueue(new RestHighLevelClient(builder));
+
 ```
