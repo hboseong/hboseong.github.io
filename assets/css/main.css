@@ -1614,7 +1614,7 @@ a.newer-posts:hover {
   text-decoration:none;
   color: black;
   font-size: 12pt;
-  text-transform: uppercase;
+  text-transform: none;
 	transition:0.4s ease;
 	-webkit-transition:0.4s ease;
 	-moz-transition:0.4s ease;
