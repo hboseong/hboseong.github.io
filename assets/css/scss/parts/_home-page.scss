@@ -155,7 +155,8 @@ footer {
     width: 30%;
     max-width: 100%;
     min-height: 11rem;
-    background-size: cover;
+    background-size: contain;
+    // background-size: cover;
     background-position: 50% 50%;
   }
 
