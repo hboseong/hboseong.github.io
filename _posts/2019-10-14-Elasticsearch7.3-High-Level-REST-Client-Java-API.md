@@ -9,18 +9,5 @@ img: elasticsearch.png # Add image post (optional)
 
 # Initialization
 
-```java
-final ArrayList<HttpHost> hostList = new ArrayList<HttpHost>();
-
-LogManager.logger.debug("Elasticsearch client initialization");
-
-for (ESDataNodeVO esDataNodeVO : mESPropertiesVO.getDataNodeList())
-    hostList.add(newHttpHost(esDataNodeVO.getHost(), esDataNodeVO.getPort(), "http"));
-    
-final RestClientBuilder builder = RestClient.builder(hostList.toArray(new HttpHost[hostList.size()]));
-
-mCQueue.enqueue(new RestHighLevelClient(builder));
-```
-
 <script src="https://gist.github.com/hboseong/f37f74b6089be7cf86bf18cde58b90dd.js"></script>
 
