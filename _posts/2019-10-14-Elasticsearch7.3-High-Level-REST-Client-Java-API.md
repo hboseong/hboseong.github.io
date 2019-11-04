@@ -22,3 +22,5 @@ final RestClientBuilder builder = RestClient.builder(hostList.toArray(new HttpHo
 mCQueue.enqueue(new RestHighLevelClient(builder));
 ```
 
+<script src="https://gist.github.com/hboseong/f37f74b6089be7cf86bf18cde58b90dd.js"></script>
+
