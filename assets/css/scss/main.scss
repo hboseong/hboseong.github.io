@@ -71,16 +71,16 @@ table {
   text-align: left;
   border-collapse: collapse;
 }
-// table td, table.blueTable th {
-//   border: 1px solid #aaa;
-//   padding: 3px 2px;
-// }
+table td, table.blueTable th {
+  border: 1px solid #aaa;
+  padding: 3px 2px;
+}
 table tbody td {
   font-size: 13px;
 }
-// table tr:nth-child(even) {
-//   background: #adbecc;
-// }
+table tr:nth-child(even) {
+  background: #adbecc;
+}
 table thead {
   background: #a9c4d1;
   background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);

@@ -834,18 +834,18 @@ table {
   border-collapse: collapse;
 }
 
-table td, table.blueTable th {
+/* table td, table.blueTable th {
   border: 1px solid #aaa;
   padding: 3px 2px;
-}
+} */
 
 table tbody td {
   font-size: 13px;
 }
 
-table tr:nth-child(even) {
+/* table tr:nth-child(even) {
   background: #adbecc;
-}
+} */
 
 table thead {
   background: #a9c4d1;
