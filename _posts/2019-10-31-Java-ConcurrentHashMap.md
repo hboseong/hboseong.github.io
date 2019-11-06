@@ -8,7 +8,7 @@ img: concurrenthashmap.png
 ---
 
 # Thread-safe
-동기화(Synchronize)라고 표현하기도 하며 어떠한 Class의 인스턴스가 여러개의 Thread에서 동시 참조되고 해당 객체에 Operation 이 발생해도 정합성을 유지해줄때 보통 우리는 Thread-Safe 하다 라고 표현한다.
+Multi-Thread 환경에서 개발 시 Thread-safe는 중요한 부분이다. 필자도 현재 업무에서 Multi-Thread를 다루이게 이 부분을 정리하고자 한다. 동기화(Synchronize)라고 표현하기도 하며 어떠한 Class의 인스턴스가 여러개의 Thread에서 동시 참조되고 해당 객체에 Operation 이 발생해도 정합성을 유지해줄때 보통 우리는 Thread-Safe 하다 라고 표현한다.
 
 
-참고: <http://blog.breakingthat.com/2019/04/04/java-collection-map-concurrenthashmap/>
+syntax: [참고](http://blog.breakingthat.com/2019/04/04/java-collection-map-concurrenthashmap/)
