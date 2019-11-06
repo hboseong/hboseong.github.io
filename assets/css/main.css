@@ -1229,6 +1229,7 @@ a.newer-posts:hover {
 .page-cover-image figure {
   position: relative;
   margin: 0;
+  text-align: center;
 }
 
 .page-cover-image figcaption {
