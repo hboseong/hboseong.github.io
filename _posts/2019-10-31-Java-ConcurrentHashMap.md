@@ -8,8 +8,9 @@ img: concurrenthashmap.png
 ---
 
 # Thread-Safe
- Multi-Thread 환경에서 개발 시 Thread-Safe는 중요한 부분이다. 필자도 현재 업무에서 Multi-Thread를 다루기 이 부분을 정리하고자 한다. 
- Thread-Safe란, 동기화(Synchronize)라고 표현하기도 하며 어떠한 Class의 인스턴스가 여러개의 Thread에서 동시 참조되고 해당 객체에 Operation 이 발생해도 정합성을 유지해줄때 보통 우리는 Thread-Safe 하다 라고 표현한다.
+  Multi-Thread 환경에서 개발 시 Thread-Safe는 중요한 부분이다. 필자도 현재 업무에서 Multi-Thread를 다루기 이 부분을 정리하고자 한다. 
+ 
+  Thread-Safe란, 동기화(Synchronize)라고 표현하기도 하며 어떠한 Class의 인스턴스가 여러개의 Thread에서 동시 참조되고 해당 객체에 Operation 이 발생해도 정합성을 유지해줄때 보통 우리는 Thread-Safe 하다 라고 표현한다.
 
 # ConcurrentHashMap
 
