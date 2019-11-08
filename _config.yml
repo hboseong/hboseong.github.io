@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Hwang Boseong # add your name
 author-img: boseong_slide.jpg # add your photo
-about-author: Let's work smart and live smarter! # add description
+about-author: Let's work smart </br>and live smarter! # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: hboseong # add your Github handle
