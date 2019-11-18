@@ -12,6 +12,6 @@ img: concurrenthashmap.png
 &nbsp; Thread-Safe란, 동기화(Synchronize)라고 표현하기도 하며 어떠한 Class의 인스턴스가 여러개의 Thread에서 동시 참조되고 해당 객체에 Operation 이 발생해도 정합성을 유지해줄때 보통 우리는 Thread-Safe 하다 라고 표현한다.
 
 # ConcurrentHashMap
-&nbsp; Map 자료구조를 사용하는 Multi-Thread에서 HashMap을 사용한다면  `ConcurrentModificationException`을 마주하게 될 것이다. HashMap은 
+&nbsp; Map 자료구조를 사용하는 Multi-Thread에서 HashMap을 사용한다면  **ConcurrentModificationException**을 마주하게 될 것이다. HashMap은 
 
 Reference: [조금 늦은, IT 관습 넘기](http://blog.breakingthat.com/2019/04/04/java-collection-map-concurrenthashmap) / [JDM's Blog](https://jdm.kr/blog/197) 
