@@ -13,7 +13,7 @@ img: concurrenthashmap.png
 
 # ConcurrentHashMap
 &nbsp; Map 자료구조를 사용하는 Multi-Thread에서 HashMap을 사용한다면  **ConcurrentModificationException**을 마주하게 될 것이다. HashMap은 Hash 알고리즘으로 구현되어 있기에 데이터를 가져오는(Get) 속도가 빠르고 효율적이어서 많이 활용하는 자료구조이다. 그러나 내부 메소드에 Synchronized가 선언 되어있지 않기 때문에  Multi-Thread 환경에서 동시 Access를 할 경우 데이터 무결성이 보장되지 않는다.<br> 
-&nbsp; Map 자료구조의 Thread-Safe를위해  HashTable Class나 Collections.synchronizedMap(HashMap)으로 Wrapping하여 처리했지만 Java1.5 이후 **ConcurrentUtil** Interface가 등장하면서 **ConcurrentHashMap** Class가 나왔다.
+&nbsp; Map 자료구조의 Thread-Safe를위해  HashTable Class나 Collections.synchronizedMap(HashMap)으로 Wrapping하여 처리했지만 Java1.5 이후 **[java.util.concurrent](https://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/package-summary.html)** Package가 나오면서 **ConcurrentHashMap** Class가 등장했다.
 
 ### HashTable, Collections.synchronizedMap
 <script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script>
