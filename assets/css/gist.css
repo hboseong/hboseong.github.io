@@ -144,7 +144,6 @@ body .gist .pl-iu {
     color: #272822;
 }
 
-body .gist-data{
-    max-height:250px;
-    overflow-y: visible;
-}
+body .gist {width:500px !important;}
+body .gist-file
+body .gist-data {max-height: 500px;max-width: 500px;}
