@@ -144,16 +144,28 @@ body .gist .pl-iu {
     color: #272822;
 }
 
-.gist {
+/* .gist {
   margin-left: auto;
   margin-right: auto;
-  /* width: 600px !important; */
-}
+  width: 600px !important;
+} */
 
 /* Limit height and width of script box, and enable scrollbars */
-.gist-data {
-    /* height:250px; */
+/* .gist-data {
+    height:250px;
     overflow-y: visible;
-    /* width: 600px; */
+    width: 600px;
     overflow-x: visible;
+} */
+
+.wrapper {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
