@@ -147,13 +147,13 @@ body .gist .pl-iu {
 .gist {
   margin-left: auto;
   margin-right: auto;
-  width: 600px !important;
+  /* width: 600px !important; */
 }
 
 /* Limit height and width of script box, and enable scrollbars */
 .gist-data {
-    height:250px;
+    /* height:250px; */
     overflow-y: visible;
-    width: 600px;
+    /* width: 600px; */
     overflow-x: visible;
 }
