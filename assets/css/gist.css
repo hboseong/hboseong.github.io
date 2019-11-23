@@ -143,3 +143,8 @@ body .gist .pl-iu {
     background: #a6e22e;
     color: #272822;
 }
+
+body .gist-data{
+    height:250px;
+    overflow-y: visible;
+}
