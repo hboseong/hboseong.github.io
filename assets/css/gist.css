@@ -149,10 +149,22 @@ body .gist-file
 body .gist-data {max-height: 500px; /* max-width: 500px; */}
 
 
-.div_test {
-  width:80%;
-  overflow:hidden;
+/* Limit width. Show scrollbars when exceeding width */
+.gist {
+   max-width:350px;
+   overflow:auto;
 }
+
+/* Limit height. Show scrollbars when exceeding height */
+.gist .blob-wrapper.data {
+   max-height:300px;
+   overflow:auto;
+}
+
+/* .div_test { */
+/*   width:80%; */
+/*   overflow:hidden; */
+/* } */
 
 /* .gist {
   margin-left: auto;
