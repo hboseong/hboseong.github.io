@@ -144,22 +144,47 @@ body .gist .pl-iu {
     color: #272822;
 }
 
-/* body .gist {width:500px !important;} */
-body .gist-file
-body .gist-data {max-height: 500px; /* max-width: 500px; */}
+.gist{
+  
+   width:100%;
+   
+   & table{
+	table-layout: fixed;
+  }
 
-
-/* Limit width. Show scrollbars when exceeding width */
-.gist {
-   max-width:350px;
-   overflow:auto;
+  & td.js-line-number{
+	// We need an explicit width for the other column to be auto
+	width: 50px; 
+		text-align: center;
+	}
+ 
+  
+  /*
+  // Uncomment this scetion to enable wrapping and disable horizontal scrolling
+  & .blob-code-inner{
+	 white-space: pre-wrap; 
+	 whites-space: wrap;
+	 word-wrap:break-word;
+ } */
 }
+
+
+/* /* body .gist {width:500px !important;} */ */
+/* body .gist-file */
+/* body .gist-data {max-height: 500px; max-width: 500px;} */
+
+
+/* /* Limit width. Show scrollbars when exceeding width */ */
+/* .gist { */
+/*    max-width:350px; */
+/*    overflow:auto; */
+/* } */
 
 /* Limit height. Show scrollbars when exceeding height */
-.gist .blob-wrapper.data {
-   max-height:300px;
-   overflow:auto;
-}
+/* .gist .blob-wrapper.data { */
+/*    max-height:300px; */
+/*    overflow:auto; */
+/* } */
 
 /* .div_test { */
 /*   width:80%; */
