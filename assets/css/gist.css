@@ -149,6 +149,11 @@ body .gist-file
 body .gist-data {max-height: 500px; /* max-width: 500px; */}
 
 
+.div_test {
+  width:80%;
+  overflow:hidden;
+}
+
 /* .gist {
   margin-left: auto;
   margin-right: auto;

@@ -16,7 +16,7 @@ img: concurrenthashmap.png
 &nbsp; Map 자료구조의 Thread-Safe를위해  HashTable Class나 Collections.synchronizedMap(HashMap)으로 Wrapping하여 처리했지만 Java1.5 이후 **[java.util.concurrent](https://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/package-summary.html)** Package가 나오면서 **[ConcurrentHashMap](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html)** Class가 등장했다.
 
 ### ▶ Synchronized Map
-<div class="tip" >
+<div class="div_test" >
 	<script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script>
 </div>
 
