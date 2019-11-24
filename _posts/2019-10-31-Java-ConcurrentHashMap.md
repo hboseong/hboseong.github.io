@@ -18,7 +18,9 @@ img: concurrenthashmap.png
 ### ▶ Synchronized Map
 <!-- <script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script> -->
 
-<iframe frameborder=0 style="min-width: 200px; width: 60%; height: 460px;" scrolling="no" seamless="seamless" srcdoc='<html><body><style type="text/css">.gist .gist-data { height: 400px; }</style><script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script></body></html>'></iframe>
+<div class='notebook-embedded'>
+{% iframe https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js 100% 100% %}
+</div>
 
 # Example
 <!-- <script src="https://gist.github.com/hboseong/14f7949dff1f36761dd66db9d6a922a6.js"></script> -->
