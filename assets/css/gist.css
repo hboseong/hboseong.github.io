@@ -153,7 +153,6 @@ body .gist .pl-iu {
   }
 
   & td.js-line-number{
-	// We need an explicit width for the other column to be auto
 	width: 50px; 
 		text-align: center;
 	}
