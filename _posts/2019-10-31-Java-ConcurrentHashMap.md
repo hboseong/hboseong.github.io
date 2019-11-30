@@ -27,11 +27,10 @@ img: concurrenthashmap.png
 </section>
 
 <section>
-			<h2><a href="https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/chaos.css">Chaos</a></h2>
-
-			<p data-height="518" data-theme-id="0" data-slug-hash="xqwMRe" data-default-tab="result" data-user="lonekorean" data-embed-version="2" data-pen-title="Customizing GitHub Gists: Chaos" class="codepen">See the Pen <a href="http://codepen.io/lonekorean/pen/xqwMRe/">Customizing GitHub Gists: Chaos</a> by Will Boyd (<a href="http://codepen.io/lonekorean">@lonekorean</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-			<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-		</section>
+<h2><a href="https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/chaos.css">Chaos</a></h2>
+<p data-height="518" data-theme-id="0" data-slug-hash="xqwMRe" data-default-tab="result" data-user="lonekorean" data-embed-version="2" data-pen-title="Customizing GitHub Gists: Chaos" class="codepen">See the Pen <a href="http://codepen.io/lonekorean/pen/xqwMRe/">Customizing GitHub Gists: Chaos</a> by test (<a href="http://codepen.io/lonekorean">@lonekorean</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+			<!-- <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script> -->
+</section>
 
 # Example
 <!-- <script src="https://gist.github.com/hboseong/14f7949dff1f36761dd66db9d6a922a6.js"></script> -->
