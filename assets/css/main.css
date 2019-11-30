@@ -883,9 +883,21 @@ table tfoot td {
   font-size: 14px;
 }
 
-.wrapper {
+/* .wrapper {
   max-width: 1250px;
   position: relative;
+} */
+
+.wrapper {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .post, .article-page {
