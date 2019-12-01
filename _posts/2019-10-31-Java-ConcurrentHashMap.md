@@ -19,7 +19,7 @@ img: concurrenthashmap.png
 <!-- <script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script> -->
 
 <div class="">
-    <iframe src="./_code/2019-10-31-Java-ConcurrentHashMap/Synchronized-Map.html" height="315" width="100%" allowfullscreen="" frameborder="0">
+    <iframe src="./_codes/2019-10-31-Java-ConcurrentHashMap/Synchronized-Map.html" height="315" width="100%" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
 
