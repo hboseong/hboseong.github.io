@@ -19,7 +19,7 @@ img: concurrenthashmap.png
 <script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script>
 
 <div class="video-container">
-    <iframe src="http://www.youtube.com/embed/4aQwT3n2c1Q" height="315" width="560" allowfullscreen="" frameborder="0">
+    <iframe src="./index.html" height="315" width="560" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
 
