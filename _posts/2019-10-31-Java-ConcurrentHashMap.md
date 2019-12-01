@@ -23,7 +23,12 @@ img: concurrenthashmap.png
     </iframe>
 </div>
 
-<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 56.2493%;"><a href="https://gist.github.com/jweir/2719090" data-iframely-url="//cdn.iframe.ly/bbI0"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<div class="iframely-embed">
+	<div class="iframely-responsive" style="padding-bottom: 56.2493%;">
+		<a href="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd" data-iframely-url="//cdn.iframe.ly/bbI0"></a>
+	</div>
+</div>
+<script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 <section>
 <h2><a href="https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/chaos.css">Chaos</a></h2>
