@@ -18,10 +18,7 @@ img: concurrenthashmap.png
 ### ▶ Synchronized Map
 <!-- <script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script> -->
 
-<div class="">
-    <iframe src="./_codes/2019-10-31-Java-ConcurrentHashMap/Synchronized-Map.html" height="315" width="100%" allowfullscreen="" frameborder="0">
-    </iframe>
-</div>
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 56.2493%;"><a href="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd" data-iframely-url="//cdn.iframe.ly/LMmmroc"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 <div class="iframely-embed">
 	<div class="iframely-responsive" style="padding-bottom: 56.2493%;">
