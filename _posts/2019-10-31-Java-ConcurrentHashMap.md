@@ -18,27 +18,12 @@ img: concurrenthashmap.png
 ### ▶ Synchronized Map
 <!-- <script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script> -->
 
-<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 56.2493%;"><a href="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd" data-iframely-url="//cdn.iframe.ly/LMmmroc"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-
 <div class="iframely-embed">
 	<div class="iframely-responsive" style="padding-bottom: 56.2493%;">
-		<a href="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd" data-iframely-url="//cdn.iframe.ly/bbI0"></a>
+		<a href="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd" data-iframely-url="//cdn.iframe.ly/LMmmroc"></a>
 	</div>
 </div>
 <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-
-<section>
-<h2><a href="https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/chaos.css">Chaos</a></h2>
-
-<p data-height="518" data-theme-id="0" data-slug-hash="xqwMRe" data-default-tab="result" data-user="lonekorean" data-embed-version="2" data-pen-title="Customizing GitHub Gists: Chaos" class="codepen">See the Pen <a href="http://codepen.io/lonekorean/pen/xqwMRe/">Customizing GitHub Gists: Chaos</a> by Will Boyd (<a href="http://codepen.io/lonekorean">@lonekorean</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</section> 
-
-<!-- <section>
-<h2><a href="https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/chaos.css">Chaos</a></h2>
-<p data-height="518" data-theme-id="0" data-slug-hash="xqwMRe" data-default-tab="result" data-user="lonekorean" data-embed-version="2" data-pen-title="Customizing GitHub Gists: Chaos" class="codepen">See the Pen <a href="http://codepen.io/lonekorean/pen/xqwMRe/">Customizing GitHub Gists: Chaos</a> by test (<a href="http://codepen.io/lonekorean">@lonekorean</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</section> -->
 
 # Example
 <!-- <script src="https://gist.github.com/hboseong/14f7949dff1f36761dd66db9d6a922a6.js"></script> -->
