@@ -18,6 +18,11 @@ img: concurrenthashmap.png
 ### ▶ Synchronized Map
 <script src="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd.js"></script>
 
+<div class="video-container">
+    <iframe src="http://www.youtube.com/embed/4aQwT3n2c1Q" height="315" width="560" allowfullscreen="" frameborder="0">
+    </iframe>
+</div>
+
 <section>
 <h2><a href="https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/chaos.css">Chaos</a></h2>
 
