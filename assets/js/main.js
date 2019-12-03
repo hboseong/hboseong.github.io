@@ -14,9 +14,10 @@ $(document).ready(function() {
 window.onload = function() { 
 	alert("window"); 
 
-	$('iframe').load( function() {
-		alert($('iframe').contents().find("head"));
+	alert($('.iframely-embed'))
+	// $('iframe').load( function() {
+	// 	alert($('iframe').contents().find('head'));
 
-	});
+	// });
 
 };
