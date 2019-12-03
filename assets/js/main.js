@@ -11,8 +11,8 @@ $(document).ready(function() {
 
 window.onload = function() { 
 
-	alert('iframe appen시도##  ');
-	$('.iframely-embed').find('iframe').find('head').append("<link rel='stylesheet' href='{{'https://hboseong.github.io/assets/css/gist.css'}}''>");
+	alert('iframely-conten appen시도## ');
+	$('#iframely-content').append("<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>");
 	// $('iframe').load( function() {
 	// 	alert($('iframe').contents().find('head'));
 //    .append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
