@@ -10,12 +10,12 @@ $(document).ready(function() {
 });
 
 window.onload = function() { 
-	
+
 	alert("window"); 
-	alert($('.iframely-embed').find('iframe'));
+	alert('iframe 객체##' +  $('.iframely-embed').find('iframe').find('head'));
 	// $('iframe').load( function() {
 	// 	alert($('iframe').contents().find('head'));
-
+//    .append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
 	// });
 
 };
