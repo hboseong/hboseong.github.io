@@ -21,7 +21,7 @@ window.onload = function() {
 
 	$("iframe").each(function() {
 		console.log('현재 iframe## ' + this);
-		console.log(this.attr('allowfullscreen'));
+		console.log($(this).attr('allowfullscreen'));
 	});
 	// var cssLink = document.createElement("link");
 	// cssLink.href = "style.css"; 
