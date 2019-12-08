@@ -19,7 +19,10 @@ window.onload = function() {
 	// });
 
 	setInterval(function() {
-		 $('#iframely-content').append("<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>");
+
+		alert('append!!')
+		$('#iframely-content').append("<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>");
+		
 	}, 5000);
 
 };
