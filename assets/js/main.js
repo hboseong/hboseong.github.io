@@ -15,12 +15,13 @@ window.onload = function() {
 	// alert(window.frames.length); // 1
 	// alert('객체 ' + window.frames[0].document); // iframe의 window의 document객체
 
-	for (let index = 0; index < window.frames; index++) {
-		console.log(window.frames[index].document)
-	}
+	// for (let index = 0; index < window.frames; index++) {
+	// 	console.log(window.frames[index].document)
+	// }
 
 	$("iframe").each(function() {
-		console.log(this);
+		console.log('현재 iframe## ' + this);
+		console.log(this.attr('allowfullscreen'));
 	});
 	// var cssLink = document.createElement("link");
 	// cssLink.href = "style.css"; 
