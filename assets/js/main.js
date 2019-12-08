@@ -11,11 +11,15 @@ $(document).ready(function() {
 
 window.onload = function() { 
 
-	alert('iframely-conten appen시도## ');
-	$('#iframely-content').append("<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>");
+	alert('iframely-content append 5초 뒤  시도## ');
+	
 	// $('iframe').load( function() {
 	// 	alert($('iframe').contents().find('head'));
 //    .append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
 	// });
+
+	setInterval(function() {
+		 $('#iframely-content').append("<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>");
+	}, 5000);
 
 };
