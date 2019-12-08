@@ -11,18 +11,29 @@ $(document).ready(function() {
 
 window.onload = function() { 
 
-	alert('iframely-content append 5초 뒤  시도## ');
+	alert('iframely-content append 시도## ');
+
+	alert(window.frames.length); // 1
+
+	alert('객체 ' + window.frames[0].document); // iframe의 window의 document객체
+
+
+	// var cssLink = document.createElement("link");
+	// cssLink.href = "style.css"; 
+	// cssLink.rel = "stylesheet"; 
+	// cssLink.type = "text/css"; 
+	// frames['iframe1'].document.head.appendChild(cssLink);
 	
 	// $('iframe').load( function() {
 	// 	alert($('iframe').contents().find('head'));
 //    .append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
 	// });
 
-	setInterval(function() {
+	// setInterval(function() {
 
-		alert('append!!')
-		$('#iframely-content').append("<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>");
-		
-	}, 5000);
+	// 	alert('append!!')
+	// 	$('#iframely-content').append("<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>");
+
+	// }, 5000);
 
 };
