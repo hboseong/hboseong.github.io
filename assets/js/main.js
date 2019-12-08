@@ -11,13 +11,17 @@ $(document).ready(function() {
 
 window.onload = function() { 
 
-	alert('iframely-content append 시도## ');
+	// alert('iframely-content append 시도## ');
+	// alert(window.frames.length); // 1
+	// alert('객체 ' + window.frames[0].document); // iframe의 window의 document객체
 
-	alert(window.frames.length); // 1
+	for (let index = 0; index < window.frames; index++) {
+		console.log(window.frames[index].document)
+	}
 
-	alert('객체 ' + window.frames[0].document); // iframe의 window의 document객체
-
-
+	$("iframe").each(function() {
+		console.log(this);
+	});
 	// var cssLink = document.createElement("link");
 	// cssLink.href = "style.css"; 
 	// cssLink.rel = "stylesheet"; 
