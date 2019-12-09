@@ -28,16 +28,16 @@ window.onload = function() {
 
 			console.log('gist code!! ' + this)
 
-			$(this).load(function() {
+			// $(this).load(function() {
 
-				var head = $(this).contents().find("head");
-				var css = "<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>";
+			// 	var head = $(this).contents().find("head");
+			// 	var css = "<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>";
 
-				console.log('head###############  ' + head)
-				console.log('css##############' + css);
-				$(head).append(css);
-				console.log('append success')
-			});	
+			// 	console.log('head###############  ' + head)
+			// 	console.log('css##############' + css);
+			// 	$(head).append(css);
+			// 	console.log('append success')
+			// });	
 
 		}
 
