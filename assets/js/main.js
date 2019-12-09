@@ -25,9 +25,15 @@ window.onload = function() {
 		console.log($(this).attr('allowfullscreen'));
 
 		if ($(this).attr('allowfullscreen') !== null) {
+
 			console.log('gist code!! ' + this)
-		}else{
-			console.log('not gist code!! ' + this)
+
+			var head = $(this).contents().find("head");
+			var css = "<link rel='stylesheet' href='https://hboseong.github.io/assets/css/gist.css'>";
+			$(head).append(css);
+
+			console.log('append success')
+
 		}
 
 	});
