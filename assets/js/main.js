@@ -20,12 +20,11 @@ window.onload = function() {
 	// }
 
 	$("iframe").each(function() {
+
 		console.log('현재 iframe## ' + this);
 		console.log($(this).attr('allowfullscreen'));
 
-		var attr = $(this).attr('allowfullscreen');
-
-		if (typeof attr !== typeof undefined && attr !== false) {
+		if ($(this).attr('allowfullscreen') !== null) {
 			console.log('gist code!! ' + this)
 		}else{
 			console.log('not gist code!! ' + this)
