@@ -22,6 +22,11 @@ window.onload = function() {
 	$("iframe").each(function() {
 		console.log('현재 iframe## ' + this);
 		console.log($(this).attr('allowfullscreen'));
+i		
+		if($(this).attr('allowfullscreen')){
+			console.log('gist code!! ' + this)
+		}
+
 	});
 	// var cssLink = document.createElement("link");
 	// cssLink.href = "style.css"; 
