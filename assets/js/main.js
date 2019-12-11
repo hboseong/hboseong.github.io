@@ -26,7 +26,7 @@ window.onload = function() {
 
 		if ($(this).attr('allowfullscreen') !== null) {
 
-			console.log('gist code!! ' + this)
+			console.log('gist code!!! ' + $(this).contents().find('body').html()); 
 
 			// $(this).load(function() {
 
