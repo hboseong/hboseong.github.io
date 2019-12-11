@@ -21,12 +21,9 @@ window.onload = function() {
 
 	$("iframe").each(function() {
 
-		console.log('현재 iframe## ' + this);
-		console.log($(this).attr('allowfullscreen'));
-
 		if ($(this).attr('allowfullscreen') !== null) {
 
-			console.log('gist code!!! ' + $(this).contents().html()); 
+			console.log('content html ' + $(this).contents().html()); 
 
 			// $(this).load(function() {
 
