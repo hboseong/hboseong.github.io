@@ -25,6 +25,8 @@ window.onload = function() {
 
 			console.log('content head ' + $(this).contents().find("head")); 
 
+			$(this).contents().find("head").append('hwangboseong');
+
 			// $(this).load(function() {
 
 			// 	var head = $(this).contents().find("head");
