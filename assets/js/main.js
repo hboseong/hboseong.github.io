@@ -23,7 +23,7 @@ window.onload = function() {
 
 		if ($(this).attr('allowfullscreen') !== null) {
 
-			console.log('content html ' + $(this).contents().html()); 
+			console.log('content html ' + $(this).contents()); 
 
 			// $(this).load(function() {
 
