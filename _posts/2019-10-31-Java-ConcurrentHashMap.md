@@ -32,11 +32,72 @@ Map<String, Object> concurrentHashMap = new ConcurrentHashMap<String, Object>();
 --> 
 
 # Example
+
+```java
+
+package com.boseong.test.concurrenthashmap;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class ThreadSafeTest {
+
+	public static void main(String[] args) {
+		
+		final ThreadSafeTest threadSafeTest = new ThreadSafeTest();
+		threadSafeTest.work(new HashMap<Integer, String>());
+		threadSafeTest.work(new ConcurrentHashMap<Integer, String>());
+		
+	}
+	
+	public ThreadSafeTest() {
+		
+	}
+	
+	public void work(Map<Integer, String> map) {
+		
+		final Thread putThread = new Thread(()-> {
+			
+			for (int i = 0; i < 10; i++) 
+				map.put(i, i + "_value");
+			
+			System.out.println("[ " + map.getClass() + "] " + " success put: " + map);
+			
+		});
+		
+		putThread.start();
+		
+		final Thread removeThread = new Thread(()-> {
+			
+			try {
+				
+				for (Integer key : map.keySet()) 
+					map.remove(key);
+				
+				System.out.println("[ " + map.getClass() + "] " + " success remove: " + map);
+			
+			} catch (Exception e) {
+				System.err.println("[ " + map.getClass() + "] " + " exception remove: " + e);
+			}
+			
+		});
+		
+		removeThread.start();
+		
+	}
+	
+}
+
+```
+
+<!--
 <div class="iframely-embed">
 	<div class="iframely-responsive" style="padding-bottom: 56.2493%;">
 		<a href="https://gist.github.com/hboseong/14f7949dff1f36761dd66db9d6a922a6" data-iframely-url="//cdn.iframe.ly/puf2tKM"></a>
 	</div>
 </div>
 <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+-->
 
 Reference: [조금 늦은, IT 관습 넘기](http://blog.breakingthat.com/2019/04/04/java-collection-map-concurrenthashmap) / [JDM's Blog](https://jdm.kr/blog/197)  / [이러쿵저러쿵](https://ooz.co.kr/71)
