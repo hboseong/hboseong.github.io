@@ -33,9 +33,9 @@ img: concurrenthashmap.png
 
 ```java
 
-public void test(){
-
-}
+Map<String, Object> hashTable = new Hashtable<String, Object>();
+Map<String, Object> synchronizedMap = Collections.synchronizedMap(new HashMap<String, Object>());
+Map<String, Object> concurrentHashMap = new ConcurrentHashMap<String, Object>();
 
 ```
 
