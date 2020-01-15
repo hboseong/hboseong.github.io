@@ -16,12 +16,20 @@ img: concurrenthashmap.png
 &nbsp; Map 자료구조의 Thread-Safe를위해  HashTable Class나 Collections.synchronizedMap(HashMap)으로 Wrapping하여 처리했지만 Java1.5 이후 **[java.util.concurrent](https://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/package-summary.html)** Package가 나오면서 **[ConcurrentHashMap](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html)** Class가 등장했다.
 
 ### ▶ Synchronized Map
+```java
+Map<String, Object> hashTable = new Hashtable<String, Object>();
+Map<String, Object> synchronizedMap = Collections.synchronizedMap(new HashMap<String, Object>());
+Map<String, Object> concurrentHashMap = new ConcurrentHashMap<String, Object>();
+```
+
+<!--
 <div class="iframely-embed">
 	<div class="iframely-responsive" style="padding-bottom: 56.2493%;">
 		<a href="https://gist.github.com/hboseong/a8b642ae38fde033e109880b620c19dd" data-iframely-url="//cdn.iframe.ly/LMmmroc"></a>
 	</div>
 </div>
 <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+--> 
 
 # Example
 <div class="iframely-embed">
@@ -30,13 +38,5 @@ img: concurrenthashmap.png
 	</div>
 </div>
 <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-
-```java
-
-Map<String, Object> hashTable = new Hashtable<String, Object>();
-Map<String, Object> synchronizedMap = Collections.synchronizedMap(new HashMap<String, Object>());
-Map<String, Object> concurrentHashMap = new ConcurrentHashMap<String, Object>();
-
-```
 
 Reference: [조금 늦은, IT 관습 넘기](http://blog.breakingthat.com/2019/04/04/java-collection-map-concurrenthashmap) / [JDM's Blog](https://jdm.kr/blog/197)  / [이러쿵저러쿵](https://ooz.co.kr/71)
